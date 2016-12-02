@@ -8,20 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		BFB000901DF0B43D0077E89F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB0008F1DF0B43D0077E89F /* AppDelegate.swift */; };
-		BFB000921DF0B43D0077E89F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB000911DF0B43D0077E89F /* ViewController.swift */; };
 		BFB000951DF0B43D0077E89F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB000931DF0B43D0077E89F /* Main.storyboard */; };
 		BFB000971DF0B43D0077E89F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFB000961DF0B43D0077E89F /* Assets.xcassets */; };
 		BFB0009A1DF0B43D0077E89F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB000981DF0B43D0077E89F /* LaunchScreen.storyboard */; };
+		BFB000A21DF0B5190077E89F /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB000A11DF0B5190077E89F /* HomeController.swift */; };
+		BFB000A41DF0B5A10077E89F /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB000A31DF0B5A10077E89F /* SearchController.swift */; };
+		BFB000A61DF0B6070077E89F /* DetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB000A51DF0B6070077E89F /* DetailsController.swift */; };
+		BFB000A81DF0B6460077E89F /* SearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB000A71DF0B6460077E89F /* SearchCell.swift */; };
+		BFB000AC1DF0B6F70077E89F /* MyLocationTourPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB000AB1DF0B6F70077E89F /* MyLocationTourPin.swift */; };
+		BFB000AE1DF0B8680077E89F /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB000AD1DF0B8680077E89F /* SwiftyJSON.swift */; };
+		BFB000B51DF0D73C0077E89F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BFB000B41DF0D73C0077E89F /* Info.plist */; };
+		BFB000B71DF0D7780077E89F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BFB000B61DF0D7780077E89F /* Info.plist */; };
+		BFB000BB1DF0E0AA0077E89F /* MyLocationTourUITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB000BA1DF0E0AA0077E89F /* MyLocationTourUITest.swift */; };
+		BFB000BD1DF0E1240077E89F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BFB000BC1DF0E1240077E89F /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BFB0008C1DF0B43D0077E89F /* MyLocationTour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLocationTour.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFB0008F1DF0B43D0077E89F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BFB000911DF0B43D0077E89F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BFB000941DF0B43D0077E89F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BFB000961DF0B43D0077E89F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFB000991DF0B43D0077E89F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		BFB0009B1DF0B43D0077E89F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFB000A11DF0B5190077E89F /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		BFB000A31DF0B5A10077E89F /* SearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
+		BFB000A51DF0B6070077E89F /* DetailsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsController.swift; sourceTree = "<group>"; };
+		BFB000A71DF0B6460077E89F /* SearchCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchCell.swift; sourceTree = "<group>"; };
+		BFB000AB1DF0B6F70077E89F /* MyLocationTourPin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyLocationTourPin.swift; sourceTree = SOURCE_ROOT; };
+		BFB000AD1DF0B8680077E89F /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = "../../../Downloads/mrJitters-master/mrJitters/SwiftyJSON.swift"; sourceTree = "<group>"; };
+		BFB000B01DF0D6490077E89F /* MyLocationTourTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyLocationTourTests.swift; sourceTree = "<group>"; };
+		BFB000B41DF0D73C0077E89F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../../../Downloads/mrJitters-master/mrJittersTests/Info.plist"; sourceTree = "<group>"; };
+		BFB000B61DF0D7780077E89F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../../../Downloads/mrJitters-master/mrJitters/Info.plist"; sourceTree = "<group>"; };
+		BFB000BA1DF0E0AA0077E89F /* MyLocationTourUITest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyLocationTourUITest.swift; path = ../../MyLocationTourUITest.swift; sourceTree = "<group>"; };
+		BFB000BC1DF0E1240077E89F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../../../Downloads/mrJitters-master/mrJittersUITests/Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				BFB0008E1DF0B43D0077E89F /* MyLocationTour */,
+				BFB000AF1DF0D4ED0077E89F /* MyLocationTourTests */,
+				BFB000B91DF0E03E0077E89F /* MyLocationTourUITest */,
 				BFB0008D1DF0B43D0077E89F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,12 +75,37 @@
 			isa = PBXGroup;
 			children = (
 				BFB0008F1DF0B43D0077E89F /* AppDelegate.swift */,
-				BFB000911DF0B43D0077E89F /* ViewController.swift */,
+				BFB000A11DF0B5190077E89F /* HomeController.swift */,
+				BFB000A31DF0B5A10077E89F /* SearchController.swift */,
+				BFB000A51DF0B6070077E89F /* DetailsController.swift */,
+				BFB000A71DF0B6460077E89F /* SearchCell.swift */,
+				BFB000AB1DF0B6F70077E89F /* MyLocationTourPin.swift */,
+				BFB000AD1DF0B8680077E89F /* SwiftyJSON.swift */,
 				BFB000931DF0B43D0077E89F /* Main.storyboard */,
 				BFB000961DF0B43D0077E89F /* Assets.xcassets */,
 				BFB000981DF0B43D0077E89F /* LaunchScreen.storyboard */,
-				BFB0009B1DF0B43D0077E89F /* Info.plist */,
+				BFB000B61DF0D7780077E89F /* Info.plist */,
 			);
+			path = MyLocationTour;
+			sourceTree = "<group>";
+		};
+		BFB000AF1DF0D4ED0077E89F /* MyLocationTourTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFB000B01DF0D6490077E89F /* MyLocationTourTests.swift */,
+				BFB000B41DF0D73C0077E89F /* Info.plist */,
+			);
+			name = MyLocationTourTests;
+			path = MyLocationTour;
+			sourceTree = "<group>";
+		};
+		BFB000B91DF0E03E0077E89F /* MyLocationTourUITest */ = {
+			isa = PBXGroup;
+			children = (
+				BFB000BA1DF0E0AA0077E89F /* MyLocationTourUITest.swift */,
+				BFB000BC1DF0E1240077E89F /* Info.plist */,
+			);
+			name = MyLocationTourUITest;
 			path = MyLocationTour;
 			sourceTree = "<group>";
 		};
@@ -124,7 +169,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFB0009A1DF0B43D0077E89F /* LaunchScreen.storyboard in Resources */,
+				BFB000B71DF0D7780077E89F /* Info.plist in Resources */,
+				BFB000BD1DF0E1240077E89F /* Info.plist in Resources */,
 				BFB000971DF0B43D0077E89F /* Assets.xcassets in Resources */,
+				BFB000B51DF0D73C0077E89F /* Info.plist in Resources */,
 				BFB000951DF0B43D0077E89F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,8 +184,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFB000921DF0B43D0077E89F /* ViewController.swift in Sources */,
+				BFB000A81DF0B6460077E89F /* SearchCell.swift in Sources */,
 				BFB000901DF0B43D0077E89F /* AppDelegate.swift in Sources */,
+				BFB000AE1DF0B8680077E89F /* SwiftyJSON.swift in Sources */,
+				BFB000A61DF0B6070077E89F /* DetailsController.swift in Sources */,
+				BFB000A21DF0B5190077E89F /* HomeController.swift in Sources */,
+				BFB000AC1DF0B6F70077E89F /* MyLocationTourPin.swift in Sources */,
+				BFB000BB1DF0E0AA0077E89F /* MyLocationTourUITest.swift in Sources */,
+				BFB000A41DF0B5A10077E89F /* SearchController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,7 +238,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "Cocoa Touch Testing Bundle";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -233,7 +287,8 @@
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Cocoa Touch Testing Bundle";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -297,6 +352,7 @@
 				BFB000A01DF0B43D0077E89F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
